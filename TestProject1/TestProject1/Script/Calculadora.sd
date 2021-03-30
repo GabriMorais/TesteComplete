@@ -45,6 +45,8 @@ begin
 TesteSoma;
 TesteSoma2;
 TesteSubtracao;
+TestAoQuadrado;
+TestPorcentagem;
 end;
 
 procedure Test1;
@@ -66,3 +68,36 @@ aqObject.CheckProperty(Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkT
 end;
 
 
+procedure TestAoQuadrado;
+begin
+
+aqObject.CheckProperty(Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.A_exibi_o_0.TextContainer.NormalOutput, 'Text', cmpEqual, '0', false);
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Teclado_num_rico.Dois.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Fun_es_padr_o.Quadrado.Click;
+  aqObject.CheckProperty(Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.A_exibi_o_0.TextContainer.NormalOutput, 'Text', cmpEqual, '4', false);
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Limpar.Click;
+end;
+
+procedure TestPorcentagem;
+begin
+aqObject.CheckProperty(Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.A_exibi_o_0.TextContainer.NormalOutput, 'Text', cmpEqual, '0', false);
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Teclado_num_rico.Oito.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Teclado_num_rico.Zero.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Operadores_padr_o.Multiplicar_por.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Teclado_num_rico.Oito.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Teclado_num_rico.Zero.DblClick;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Operadores_padr_o.Igual_a.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Por_cento.Click;
+  aqObject.CheckProperty(Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.A_exibi_o_0.TextContainer.NormalOutput, 'Text', cmpEqual, '640', false);
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Limpar.Click;
+end;
+
+procedure Test3;
+begin
+  aqObject.CheckProperty(Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.A_exibi_o_0.TextContainer.NormalOutput, 'Text', cmpEqual, '0', false);
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Teclado_num_rico.Nove.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Fatorial.Click;
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Operadores_padr_o.Igual_a.Click;
+  aqObject.CheckProperty(Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.A_exibi_o_0.TextContainer.NormalOutput, 'Text', cmpEqual, '362.880', false);
+  Aliases.Microsoft_WindowsCalculator.Calculadora.LandmarkTarget.Controles_de_exibi_o.Limpar_entrada.Click;
+end;

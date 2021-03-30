@@ -4,5 +4,6 @@
 		<child name="Calculadora" key="{302898EF-7C72-4751-A82B-9A849D00E399}" path="Calculadora.sd" />
 		<child name="MemoriaCalculo" key="{4BE2224C-0E87-4D0A-8980-48CCD2650E7A}" path="MemoriaCalculo.sd" />
 		<child name="Main" key="{B5CF6233-77CF-4191-B139-55F2A7690ED3}" path="Main.sd" />
+		<child name="Blocodenotas" key="{AEF2398E-B720-49A6-A812-A8BEA51DCE79}" path="Blocodenotas.sd" />
 	</children>
 </Root>

@@ -23,29 +23,29 @@
 		<Node name="logs">
 			<Node name="log idx=0000">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44285.690608831"/>
+				<Prp name="datetime" type="D" value="44285.7535954051"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{1D1DC024-B040-4C34-BB2E-866CE0CBA149}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Main\AllTests]"/>
-				<Prp name="relpath" type="S" value="30_03_2021_16_34_28_603\Description.tcLog"/>
+				<Prp name="key" type="S" value="{E41E9914-C3D8-4EA1-9049-208F01542982}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Blocodenotas\MostrarHoraAtual]"/>
+				<Prp name="relpath" type="S" value="30_03_2021_18_05_10_643\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
 			<Node name="log idx=0001">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44285.6915982639"/>
+				<Prp name="datetime" type="D" value="44285.7551181481"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{7F9DD811-73ED-4826-8252-C91035B66D96}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Main\AllTests]"/>
-				<Prp name="relpath" type="S" value="30_03_2021_16_35_54_90\Description.tcLog"/>
+				<Prp name="key" type="S" value="{66034F19-59B3-417F-8BD7-B2E9C44113EF}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Blocodenotas\MostrarHoraAtual]"/>
+				<Prp name="relpath" type="S" value="30_03_2021_18_07_22_208\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
 			<Node name="log idx=0002">
 				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="44285.6920320718"/>
+				<Prp name="datetime" type="D" value="44285.7554527546"/>
 				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{777DF555-EF35-42DE-A238-71B9AA9C1ACF}"/>
-				<Prp name="nameofroot" type="S" value="Script Test Log [Main\AllTests]"/>
-				<Prp name="relpath" type="S" value="30_03_2021_16_36_31_571\Description.tcLog"/>
+				<Prp name="key" type="S" value="{10AE12E0-6F9E-44D9-BD87-4E4BBF009724}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Blocodenotas\Test1]"/>
+				<Prp name="relpath" type="S" value="30_03_2021_18_07_51_118\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
 		</Node>

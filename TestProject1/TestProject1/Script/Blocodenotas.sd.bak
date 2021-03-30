@@ -1,0 +1,28 @@
+﻿procedure VerificaVazio;
+begin
+  Aliases.notepad.wndNotepad.Minimize;
+  Aliases.notepad.wndNotepad.Activate;
+  aqObject.CheckProperty(Aliases.notepad.wndNotepad.Edit, 'wText', cmpEqual, '', false);
+end;
+
+procedure MostrarHoraAtual;
+begin
+  Aliases.notepad.wndNotepad.Edit.Click(115, 154);
+  Aliases.notepad.wndNotepad.Edit.ClickR(137, 164);
+  Aliases.notepad.wndNotepad.Edit.PopupMenu.Click('Selecionar tudo');
+  Aliases.notepad.wndNotepad.Edit.ClickR(132, 84);
+  Aliases.notepad.wndNotepad.Edit.PopupMenu.Click('Excluir');
+  Aliases.notepad.wndNotepad.MainMenu.Click('Editar|Hora/data'); 
+end;
+
+procedure Test1;
+begin
+
+  Aliases.notepad.wndNotepad.Edit.Click(115, 154);
+  Aliases.notepad.wndNotepad.Edit.ClickR(137, 164);
+  Aliases.notepad.wndNotepad.Edit.PopupMenu.Click('Selecionar tudo');
+  Aliases.notepad.wndNotepad.Edit.ClickR(132, 84);
+  Aliases.notepad.wndNotepad.Edit.PopupMenu.Click('Excluir');
+  Aliases.notepad.wndNotepad.Edit.Keys('[Caps]O[Caps]l[D219]a,boa noite');
+  aqObject.CheckProperty(Aliases.notepad.wndNotepad.Edit, 'wText', cmpEqual, 'Olá,boa noite', false);
+end;
