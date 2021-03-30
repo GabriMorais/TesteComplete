@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
-		<child name="Unit1" key="{302898EF-7C72-4751-A82B-9A849D00E399}" path="Unit1.sd" />
+		<child name="Calculadora" key="{302898EF-7C72-4751-A82B-9A849D00E399}" path="Calculadora.sd" />
+		<child name="MemoriaCalculo" key="{4BE2224C-0E87-4D0A-8980-48CCD2650E7A}" path="MemoriaCalculo.sd" />
+		<child name="Main" key="{B5CF6233-77CF-4191-B139-55F2A7690ED3}" path="Main.sd" />
 	</children>
 </Root>

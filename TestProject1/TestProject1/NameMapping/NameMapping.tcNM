@@ -246,6 +246,24 @@
 															</Property>
 														</Properties>
 													</Child>
+													<Child Name="Um" Key="{05500FC6-AB93-4FDB-B09A-AB3BA0A85242}">
+														<Image FileName="-1559096489" Left="12" Top="422" Right="98" Bottom="474" />
+														<TypeInfo Item0="{67E22673-969C-42D9-A8D2-F911805042AC}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="botão" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Um" />
+															</Property>
+														</Properties>
+													</Child>
 												</Children>
 											</Child>
 											<Child Name="Operadores_padr_o" Key="{782C9681-5237-421F-8643-D605B8571981}">
@@ -390,6 +408,135 @@
 													</Child>
 												</Children>
 											</Child>
+											<Child Name="Controles_de_mem_ria" Key="{39478687-3129-4280-8CE1-9DB2C8F9919B}">
+												<Image FileName="-1683027874" Left="12" Top="172" Right="363" Bottom="204" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="XAML" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="NamedContainerAutomationPeer" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="grupo" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="Controles_de_memória" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="Adi_o_de_Mem_ria" Key="{7185C139-3528-4BE3-84A0-47813FBEC214}">
+														<Image FileName="-1683027874" Left="154" Top="172" Right="222" Bottom="204" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="botão" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Adição_de_Memória" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="Rechamada_de_Mem_ria" Key="{BD1F7C14-B748-4FBC-BFEB-CE0FE939CF07}">
+														<Image FileName="-82593011" Left="83" Top="172" Right="152" Bottom="204" />
+														<TypeInfo Item0="{67E22673-969C-42D9-A8D2-F911805042AC}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="botão" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Rechamada_de_Memória" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="Limpar_toda_a_mem_ria" Key="{2E6E0075-8FAC-46B8-9226-07724044D536}">
+														<Image FileName="866805373" Left="12" Top="172" Right="81" Bottom="204" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="Button" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="botão" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="Limpar_toda_a_memória" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="A_exibi_o_0" Key="{4D9D5370-FA9D-441B-9727-4075A3E2E806}">
+												<Image FileName="-1136746537" Left="8" Top="94" Right="368" Bottom="171" />
+												<TypeInfo Item0="{8FC45628-C0A0-48EF-AC3F-6C64D3A8D86D}" />
+												<Properties>
+													<Property Name="FrameworkId">
+														<Value Value="XAML" />
+													</Property>
+													<Property Name="ClassName">
+														<Value Value="0" Type="0" />
+													</Property>
+													<Property Name="LocalizedControlType">
+														<Value Value="texto" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="A_exibição_é_0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="TextContainer" Key="{13367830-791C-413A-A3DB-745565232E82}">
+														<Image FileName="-1136746537" Left="20" Top="94" Right="356" Bottom="171" />
+														<TypeInfo Item0="{8FC45628-C0A0-48EF-AC3F-6C64D3A8D86D}" />
+														<Properties>
+															<Property Name="FrameworkId">
+																<Value Value="XAML" />
+															</Property>
+															<Property Name="ClassName">
+																<Value Value="ScrollViewer" />
+															</Property>
+															<Property Name="LocalizedControlType">
+																<Value Value="painel" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="TextContainer" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="NormalOutput" Key="{8BE25C6B-79EC-40AA-B7B6-CE982F801327}">
+																<Image FileName="-1136746537" Left="329" Top="94" Right="356" Bottom="156" />
+																<TypeInfo Item0="{8FC45628-C0A0-48EF-AC3F-6C64D3A8D86D}" />
+																<Properties>
+																	<Property Name="FrameworkId">
+																		<Value Value="XAML" />
+																	</Property>
+																	<Property Name="ClassName">
+																		<Value Value="TextBlock" />
+																	</Property>
+																	<Property Name="LocalizedControlType">
+																		<Value Value="texto" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="NormalOutput" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
 										</Children>
 									</Child>
 								</Children>
@@ -415,6 +562,138 @@
 									</Property>
 								</Properties>
 							</Child>
+							<Child Name="pageGeral" Key="{D985E16F-13B0-464D-B12A-61895256906B}">
+								<Image FileName="-287428843" Left="0" Top="71" Right="1358" Bottom="768" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://discord.com/channels/826183031026745414/826183031026745417" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panel" Key="{84264721-9891-4D0F-93A2-B5271BA82AF3}">
+										<Image FileName="-287428843" Left="312" Top="500" Right="1054" Bottom="676" />
+										<TypeInfo Item0="{CBF07863-C693-4C5B-8AF1-E0CF1817B8FE}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[contains(text(), &apos;uses&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="[role=&apos;listitem&apos;]:nth-child(20) .markup-2BOw-j" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;app-mount&apos;]/div[2]/div/div[2]/div/div/div/div[2]/div[2]/div[2]/main/div/div/div/div/div[19]/div/div" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[19]/div/div" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="ApplicationFrameHost" Key="{018950C5-01ED-4842-BC73-2AEE740B80B6}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="ApplicationFrameHost" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndCalculadora" Key="{A619D597-B325-4A91-BB41-BDB41C84B083}">
+								<TypeInfo Item0="{B17BE732-CFE3-400E-B270-C91DE4CBDAF1}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="ApplicationFrameWindow" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Calculadora" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{03D3A166-191F-4BFA-A33E-A8056FE75F42}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{C1644481-B841-46D2-A93B-9DE75003DF30}">
+								<Image FileName="104187934" Left="0" Top="0" Right="78" Bottom="768" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="ReBarWindow32" Key="{4ECA03A0-8346-49B0-8E2F-EAEDD0BE6759}">
+										<Image FileName="104187934" Left="0" Top="118" Right="78" Bottom="642" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="ReBarWindow32" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="MSTaskSwWClass" Key="{75AE27C7-F3D0-4478-BA22-8ACBF0B34096}">
+												<Image FileName="104187934" Left="0" Top="120" Right="78" Bottom="642" />
+												<Properties>
+													<Property Name="WndClass">
+														<Value Value="MSTaskSwWClass" />
+													</Property>
+													<Property Name="WndCaption">
+														<Value Value="Aplicativos em execução" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="MSTaskListWClass" Key="{058C2CEF-FF79-45A3-BFC1-8454A6461289}">
+														<Image FileName="104187934" Left="0" Top="120" Right="78" Bottom="642" />
+														<TypeInfo Item0="{85343DC5-9CC3-437B-A8FF-E95FF92C43B1}" />
+														<Properties>
+															<Property Name="WndClass">
+																<Value Value="MSTaskListWClass" />
+															</Property>
+															<Property Name="WndCaption">
+																<Value Value="Aplicativos em execução" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="notepad" Key="{89C62F3F-5216-482F-8DA4-B23FF7239666}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="notepad" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndNotepad" Key="{63C0E3AD-6072-4CE1-A147-4330166E5A22}">
+								<TypeInfo Item0="{B17BE732-CFE3-400E-B270-C91DE4CBDAF1}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Notepad" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Edit" Key="{4B49FE36-D9BA-47E4-AC7E-981F38B9BA9D}">
+										<TypeInfo Item0="{B447F344-988A-4EB1-B0C1-50829D2C77EE}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Edit" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -437,6 +716,7 @@
 						<Child Name="Tr_s" Owner="{04AB86F1-D3B9-4C58-BE2D-E60379F9410F}" />
 						<Child Name="Oito" Owner="{F9369286-0F11-430B-922A-FA7BF8AB4BCF}" />
 						<Child Name="Nove" Owner="{298BDBA4-2DD8-413C-A0F7-FAF3B0D83262}" />
+						<Child Name="Um" Owner="{05500FC6-AB93-4FDB-B09A-AB3BA0A85242}" />
 					</Child>
 					<Child Name="Operadores_padr_o" Owner="{782C9681-5237-421F-8643-D605B8571981}">
 						<Child Name="Mais" Owner="{612B0ECF-7F3A-43B4-A3E0-EB7494AE6B0D}" />
@@ -448,11 +728,41 @@
 					<Child Name="Controles_de_exibi_o" Owner="{692751A1-CDE2-416D-AAA9-F59F2E74B5E7}">
 						<Child Name="Limpar" Owner="{364903A3-22D5-4099-8D9E-FD2451635927}" />
 					</Child>
+					<Child Name="Controles_de_mem_ria" Owner="{39478687-3129-4280-8CE1-9DB2C8F9919B}">
+						<Child Name="Adi_o_de_Mem_ria" Owner="{7185C139-3528-4BE3-84A0-47813FBEC214}" />
+						<Child Name="Rechamada_de_Mem_ria" Owner="{BD1F7C14-B748-4FBC-BFEB-CE0FE939CF07}" />
+						<Child Name="Limpar_toda_a_mem_ria" Owner="{2E6E0075-8FAC-46B8-9226-07724044D536}" />
+					</Child>
+					<Child Name="A_exibi_o_0" Owner="{4D9D5370-FA9D-441B-9727-4075A3E2E806}">
+						<Child Name="TextContainer" Owner="{13367830-791C-413A-A3DB-745565232E82}">
+							<Child Name="NormalOutput" Owner="{8BE25C6B-79EC-40AA-B7B6-CE982F801327}" />
+						</Child>
+					</Child>
 				</Child>
 			</Child>
 		</Child>
 		<Child Name="browser" Owner="{262269B5-4DAA-4D1C-924F-FC9D4A06B89D}">
 			<Child Name="BrowserWindow" Owner="{C68E0A48-C055-4D35-ABE4-DF7ED57E48B4}" />
+			<Child Name="pageGeral" Owner="{D985E16F-13B0-464D-B12A-61895256906B}">
+				<Child Name="panel" Owner="{84264721-9891-4D0F-93A2-B5271BA82AF3}" />
+			</Child>
+		</Child>
+		<Child Name="ApplicationFrameHost" Owner="{018950C5-01ED-4842-BC73-2AEE740B80B6}">
+			<Child Name="wndCalculadora" Owner="{A619D597-B325-4A91-BB41-BDB41C84B083}" />
+		</Child>
+		<Child Name="explorer" Owner="{03D3A166-191F-4BFA-A33E-A8056FE75F42}">
+			<Child Name="wndShell_TrayWnd" Owner="{C1644481-B841-46D2-A93B-9DE75003DF30}">
+				<Child Name="ReBarWindow32" Owner="{4ECA03A0-8346-49B0-8E2F-EAEDD0BE6759}">
+					<Child Name="MSTaskSwWClass" Owner="{75AE27C7-F3D0-4478-BA22-8ACBF0B34096}">
+						<Child Name="MSTaskListWClass" Owner="{058C2CEF-FF79-45A3-BFC1-8454A6461289}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+		<Child Name="notepad" Owner="{89C62F3F-5216-482F-8DA4-B23FF7239666}">
+			<Child Name="wndNotepad" Owner="{63C0E3AD-6072-4CE1-A147-4330166E5A22}">
+				<Child Name="Edit" Owner="{4B49FE36-D9BA-47E4-AC7E-981F38B9BA9D}" />
+			</Child>
 		</Child>
 	</LogicalNodes>
 </Root>
